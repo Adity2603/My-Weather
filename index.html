@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-1">
+
+
+            <div class="box1">
+                <h1 class="city-name">
+                    Name of City
+                </h1>
+                <h1 class="city-temp">
+                    30 &#8451;
+                </h1>
+            </div>
+        </div>
+        <h1 class="city-date">
+            FEB 2 2024
+        </h1>
+        <div class="container-2">
+
+            <!-- Minimum and Maximum Tempreture -->
+
+            <div class="card">
+                <h1 class="title">
+                    Minimum Tempture
+                </h1>
+                <hr>
+                <h2 class="title-data" id="temp-min" >
+                   -
+                </h2>
+                <h1 class="title">
+                    Maximum Tempture
+                </h1>
+                <hr>
+                <h2 class="title-data" id="temp-max" >
+                    -
+                </h2>
+            </div>
+
+            <!-- Weather and Pressure -->
+
+            <div class="card"><h1 class="title">
+                Wind Speed
+            </h1>
+            <hr>
+            <h2 class="title-data" id="wind-speed" >
+                -
+            </h2>
+            <h1 class="title">
+               Pressure
+            </h1>
+            <hr>
+            <h2 class="title-data" id="pressure" >
+                -
+            </h2></div>
+
+            <!-- Sunrise and Sunset  -->
+
+
+            <div class="card"><h1 class="title">
+               Sunrise
+            </h1>
+            <hr>
+            <h2 class="title-data" id="rise-time">
+               -
+            </h2>
+            <h1 class="title">
+               Sunset
+            </h1>
+            <hr>
+            <h2 class="title-data" id="set-time" >
+             -
+            </h2></div>
+        </div>
+
+        <div class="container-3">
+            <input type="text" class="city-search" 
+           
+            placeholder="City Name" >
+            <br>
+
+            <button class="search">Search</button>
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
