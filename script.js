@@ -71,5 +71,8 @@ const GenerateTime = (time) => {
     return istTimeString;
 }
 
-window.onload(cityDate.innerText = formattedDate)
+window.onload = function() {
+    cityDate.innerText = formattedDate;
+};
+
 
